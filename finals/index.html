@@ -1,0 +1,130 @@
+<html>
+<head>
+    <title>
+    LOVE DOG
+    </title>
+    <link rel = "stylesheet"  href = "style.css">
+    
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    </head>
+    <body>
+    <section id ="doggy">
+        <div class="banner-text">
+        <h1> LOVE DOG</h1>
+            <p> Know more about your dog</p>
+           
+                 
+        </div>
+        </section>
+        
+        <driv  id = "sideNav">
+            <nav>
+            <ul>
+                <li> <a href ="#HOME">HOME </a></li>
+                 <li> <a href ="#INFORMATION">INFORMATION </a></li>
+                 <li> <a href ="#ABOUT">ABOUT </a></li>
+                </ul>
+            </nav>
+        </driv>
+        
+        <driv id = "manubtn">
+            <img src ="images/dots.png" id = "menu">
+        </driv>
+        
+    <section id = "information">
+        <div class = "title-text">
+            <p>INFORMATION</p>
+            <h1> Why dog love humans </h1>
+        </div>
+        <div class = "information-box">
+            <div class = "information">
+                <h1> Why Dogs (Probably) Love Us </h1>
+                <div class = "information-desc">
+                    <div class= "information-icon">
+                    </div>
+                    <div class= "information-text">
+                        <p> Well, we've spent a few thousand years perfecting the human-dog bond, so it's natural that we've developed some affection for each other, Sinn says. Plus, they've become more reliant on us—for food, shelter, and comfort—as we've taken over what used to be their ancestral homes.  </p>
+                    </div>
+                </div>
+              <h1> Show Your Dog You Love Them Back </h1>
+                <div class = "information-desc">
+                    <div class= "information-icon">
+                    </div>
+                    <div class= "information-text">
+                        <p> Whether your dog loves you or not—even though we think they do—you should still treat them to the best life possible, giving them everything they need to be happy. 
+
+That means making sure they get enough exercise, eat the right food, receive the best medical care, and have a say in what happens to them. Treat them as your partner or child, Sinn says. Play with them and teach them cues and tricks. 
+
+Get them toys to play with when you're not around. Treat them consistently so they know what to expect from you.   </p>
+                    </div>
+                </div>
+              <h1> Does My Dog Love Me? </h1>
+                <div class = "information-desc">
+                    <div class= "information-icon">
+                    </div>
+                    <div class= "information-text">
+                        <p> How dogs love us is a matter of perception, Sinn says. They look at our faces and make eye contact. They wag their tails or wiggle their butts as we walk in the door and present us with toys to play with. They want to sleep next to us.  
+
+And unlike other animals, they seek us out for comfort and safety. They follow us around, and some get upset when we leave, even potentially to the point of separation anxiety. 
+
+But those are things we perceive as love, Sinn says. We just don't know for sure. But we do have science helping us better understand.  </p>
+                    </div>
+                </div>
+              
+                
+                
+                
+                
+                
+                
+            </div>
+            
+            <div class = "information-img">
+                <img src="images/pet.jpg">
+            </div>
+        
+        </div>
+        
+        </section>
+        
+        <!-- about-->
+        
+        <section id = "about">
+        
+        <div class = "title-text">
+            <p>about</p>
+            <h1>  This Page </h1>
+            <h3> is all about dogs that  don't speak or understand conversational but we felt their love</h3>
+        </div>
+        
+        
+        
+        </section>
+        
+        
+        <script>
+        
+        var manubtn = document.getElementById("manubtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+        sideNav.style.right = "-250px"
+        
+        manubtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+            }
+            else{
+                sideNav.style.right = "-250px";
+                
+            }
+        }
+        
+        var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+            speedAsDuration:true
+});
+        </script>
+        
+    </body>
+
+</html>
